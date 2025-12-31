@@ -17,3 +17,15 @@ The warehouse is optimized for analytics, reporting, and business intelligence u
 - **Scope**: Focus on the latest datasets only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both  business stakeholders and the analytics team.
 
+### BI: Analytics & Reporting
+Develop SQL-based analytics to deliver detailed insights into:
+**Customer Behaviour**
+**Product Performance**
+**Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+## About me
+Hi there, I'm **Adinath Kadam**. I'm an IT professional and a passionate Data Engineer, 
+enjoy building efficient data platforms that support reporting and decision-making.
+
