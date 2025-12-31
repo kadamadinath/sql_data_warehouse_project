@@ -6,7 +6,7 @@ This project demonstrates the design and implementation of a modern data warehou
 It covers end-to-end ETL pipelines with medallion architecture, dimensional data modeling, and data transformation.
 The warehouse is optimized for analytics, reporting, and business intelligence use cases.
 
-## Project Requirements
+## 🔍Project Requirements
 
 ### Building Data Warehouse (Data Engineering)
 
@@ -25,7 +25,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-## About me
+## 👨‍💻About me
 Hi there, I'm **Adinath Kadam**. I'm an IT professional and a passionate Data Engineer, 
 enjoy building efficient data platforms that support reporting and decision-making.
 
