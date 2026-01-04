@@ -1,7 +1,6 @@
- ----------------------------------
- -- DDL scripts for bronze layer --
- ----------------------------------
-
+ ---------------------------------------------
+ -- DDL Script for bronze layer(All Tables)--
+ ---------------------------------------------
  IF OBJECT_ID('bronze.crm_cust_info','U') IS NOT NULL
  DROP TABLE bronze.crm_cust_info;
  CREATE TABLE bronze.crm_cust_info 
@@ -14,7 +13,7 @@
 	 cst_gndr NVARCHAR(55),
 	 cst_create_date DATE
  );
- -----------------------------------------------------------------------------
+ 
 
  IF OBJECT_ID('bronze.crm_prd_info','U') IS NOT NULL
  DROP TABLE bronze.crm_prd_info;
@@ -28,7 +27,7 @@
 	prd_start_dt DATE,
 	prd_end_dt DATE
  );
----------------------------------------------------------------------------------
+
 
  IF OBJECT_ID('bronze.crm_sales_details','U') IS NOT NULL
  DROP TABLE bronze.crm_sales_details;
@@ -44,7 +43,7 @@
 	sls_quantity INT,
 	sls_price INT
  );
- ---------------------------------------------------------------------------
+ 
 
  IF OBJECT_ID('bronze.erp_cust_az12','U') IS NOT NULL
  DROP TABLE bronze.erp_cust_az12;
@@ -54,7 +53,7 @@
 	BDATE DATE,
 	GEN NVARCHAR(55)
  );
- ------------------------------------------------------------------------------
+ 
 
  IF OBJECT_ID('bronze.erp_loc_a101','U') IS NOT NULL
  DROP TABLE bronze.erp_loc_a101;
@@ -63,7 +62,7 @@
 	CID NVARCHAR(55),
 	CNTRY NVARCHAR(55)
  );
- --------------------------------------------------------------------------------
+ 
 
  IF OBJECT_ID('bronze.erp_px_cat_g1v2','U') IS NOT NULL
  DROP TABLE bronze.erp_px_cat_g1v2;
@@ -74,4 +73,4 @@
 	SUBCAT NVARCHAR(55),
 	MAINTENANCE NVARCHAR(55)
  );
- -------------------------------------------------------------------------------------------------------------
+ 
